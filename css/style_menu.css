@@ -4,14 +4,11 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 header{
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	
+
 	height: 150px;
 	background: rgba(255, 255, 255, 0.9);
 border-radius: 0px;
+border-bottom: 1px solid rgba(36, 35, 35, 0.1)
 
 }
 .wrapper{
@@ -27,7 +24,8 @@ border-radius: 0px;
 	display: flex;
 	float: right;
 	margin-right: 26px;
-	margin-top: 67px;
+    margin-top: 67px;
+    
 	
 	
 }
@@ -44,41 +42,15 @@ border-radius: 0px;
 	margin-left: 29px;
 	position: relative;
 }
-.banner{
-	background: url(../img/fon.png) no-repeat center top;
-	height: 1080px;
-	
-	text-align: center;
-}
-/* Товары*/
-.popular{
-	height: 1299px;
-	justify-content: center;
-	display: flex;
-	
-}
-h2{
-	font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-padding-top: 46px;
-padding-bottom: 56px;
-}
-.popular-group{
-	display: flex;
-    flex-wrap: wrap;
-  justify-content: center;
-  padding-left: 100px;
- 
-}
+
+      
+
 .group{
 	background: #FFFFFF;
 box-shadow: 5px 5px 30px rgba(135, 135, 135, 0.25);
 border-radius: 5px;
-margin-right: 95px;
-margin-bottom: 90px;
+margin-right: 46px;
+margin-bottom: 25px;
 }
 
 .group h3{
@@ -190,93 +162,31 @@ border-bottom: 1px solid #FF6B00;
 .button_price{
 	text-align: center;
 }
-/*futer*/
-.footer{
-	height: 1080px;
+.menu__items{
+    flex-wrap: wrap;
+    display: flex;
+    
 }
-.grid{
-	
-	width: 547px;
-	height: 500px;
-	float: left;
-	margin-left: 83px;
-	
+.navigate_menu{
+    width: 20%;
+    
 }
-.footer__wrap{
-	align-items: center;
-	text-align: center;
+
+.container__wrap{
+    display: flex;
+    
 }
-.footer__wrap > h2{
-	font-size: 36px;
+h1{
+    font-style: normal;
+font-weight: normal;
+font-size: 36px;
 line-height: 42px;
-color: #2B2B2B;
-padding-bottom: 90px;
-padding-top: 0;
-}
-.grid__wrap{
-	display: flex;
-	justify-content: center;
-}
-.grid p {
-	text-align: left;
-	font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-color: #2B2B2B;
-}
-.form{
-	background: #EEEEEE;
-	height: 406px;
-	text-align: left;
-	padding-top: 28px;
-	padding-left: 41px;
-}
-.form > p{
-	font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 16px;
-padding-bottom: 7px;
-color: #777777;
-}
-.form > h3{
-	font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 35px;
-color: #333333;
-}
-.form-control{
-	margin-top: 117px;
-	width: 350px;
-height: 60px;
 
-background: #FFFFFF;
-border-radius: 5px;
-font-size: 24px;
+color: #2B2B2B;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 31px;
 }
-.submit_two{
-	margin-top: 54px;
-	width: 186px;
-height: 60px;
-background: #333333;
-border-radius: 5px;
-font-size: 18px;
-line-height: 21px;
-color: #EAEAEA;
-box-shadow: inset 0 1px 0 0 #333333;
-}
-.map{
-	width: 552px;
-height: 404px;
-margin-top: 200px;
-
-}
-.time__work{
-	font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-color: #2B2B2B
+.menu__left{
+    padding: 30px 40px;   
 }
